@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupam\BanglaSlug\Facades;
+namespace Alkafi1\BanglaSlug\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

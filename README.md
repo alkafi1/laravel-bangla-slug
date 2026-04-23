@@ -15,7 +15,7 @@ A powerful, robust, and easy-to-use Laravel package for generating slugs from Be
 You can install the package via composer:
 
 ```bash
-composer require rupam/bangla-slug
+composer require alkafi1/bangla-slug
 ```
 
 *(Note: Since this is currently a local package, make sure to add it to your project's repository list or publish it to Packagist first).*
@@ -37,7 +37,7 @@ This will create a `config/bangla-slug.php` file in your application where you c
 ### 1. Using the Facade
 
 ```php
-use Rupam\BanglaSlug\Facades\BanglaSlug;
+use Alkafi1\BanglaSlug\Facades\BanglaSlug;
 
 $slug = BanglaSlug::make('আমার সোনার বাংলা'); 
 // Result: 'আমার-সোনার-বাংলা'
@@ -79,7 +79,7 @@ The package comes with a handy trait `HasBanglaSlug` to automatically generate *
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Rupam\BanglaSlug\Traits\HasBanglaSlug;
+use Alkafi1\BanglaSlug\Traits\HasBanglaSlug;
 
 class Post extends Model
 {

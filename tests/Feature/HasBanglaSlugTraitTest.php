@@ -1,12 +1,12 @@
 <?php
 
-namespace Rupam\BanglaSlug\Tests\Feature;
+namespace Alkafi1\BanglaSlug\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Rupam\BanglaSlug\Tests\TestCase;
-use Rupam\BanglaSlug\Traits\HasBanglaSlug;
+use Alkafi1\BanglaSlug\Tests\TestCase;
+use Alkafi1\BanglaSlug\Traits\HasBanglaSlug;
 
 class HasBanglaSlugTraitTest extends TestCase
 {

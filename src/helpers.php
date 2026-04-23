@@ -1,6 +1,6 @@
 <?php
 
-use Rupam\BanglaSlug\Facades\BanglaSlug;
+use Alkafi1\BanglaSlug\Facades\BanglaSlug;
 
 if (! function_exists('bangla_slug')) {
     /**

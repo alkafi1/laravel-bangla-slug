@@ -1,9 +1,9 @@
 <?php
 
-namespace Rupam\BanglaSlug\Tests\Feature;
+namespace Alkafi1\BanglaSlug\Tests\Feature;
 
-use Rupam\BanglaSlug\Facades\BanglaSlug;
-use Rupam\BanglaSlug\Tests\TestCase;
+use Alkafi1\BanglaSlug\Facades\BanglaSlug;
+use Alkafi1\BanglaSlug\Tests\TestCase;
 
 class BanglaSlugTest extends TestCase
 {

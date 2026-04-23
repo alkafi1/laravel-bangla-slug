@@ -1,8 +1,8 @@
 <?php
 
-namespace Rupam\BanglaSlug\Traits;
+namespace Alkafi1\BanglaSlug\Traits;
 
-use Rupam\BanglaSlug\Facades\BanglaSlug;
+use Alkafi1\BanglaSlug\Facades\BanglaSlug;
 
 trait HasBanglaSlug
 {

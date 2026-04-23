@@ -1,6 +1,6 @@
 <?php
 
-namespace Rupam\BanglaSlug;
+namespace Alkafi1\BanglaSlug;
 
 use Illuminate\Support\ServiceProvider;
 

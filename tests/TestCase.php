@@ -1,9 +1,9 @@
 <?php
 
-namespace Rupam\BanglaSlug\Tests;
+namespace Alkafi1\BanglaSlug\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Rupam\BanglaSlug\BanglaSlugServiceProvider;
+use Alkafi1\BanglaSlug\BanglaSlugServiceProvider;
 
 class TestCase extends Orchestra
 {
