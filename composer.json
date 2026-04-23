@@ -1,0 +1,46 @@
+{
+    "name": "rupam/bangla-slug",
+    "description": "A Laravel package for generating slugs from Bengali text.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rupam",
+            "email": "rupam@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rupam\\BanglaSlug\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rupam\\BanglaSlug\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rupam\\BanglaSlug\\BanglaSlugServiceProvider"
+            ],
+            "aliases": {
+                "BanglaSlug": "Rupam\\BanglaSlug\\Facades\\BanglaSlug"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
